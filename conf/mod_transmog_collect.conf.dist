@@ -1,0 +1,66 @@
+[worldserver]
+
+########################################
+# mod-transmog-collect
+#
+# Unlocks mod-transmog appearances when an item reaches your bags or gets disenchanted, not only
+# when you equip it. Needs mod-transmog with Transmogrification.UseCollectionSystem = 1.
+# mod-transmog's Transmogrification.TrackUnusableItems still decides whether appearances your
+# character can't wear get collected.
+########################################
+
+#
+#    TransmogCollect.Enable
+#        Description: Master switch.
+#        Default:     1
+#
+
+TransmogCollect.Enable = 1
+
+#
+#    TransmogCollect.OnPickup
+#        Description: Unlock a weapon or armor appearance as soon as the item lands in your bags,
+#                     bound or not: loot, vendors, quest rewards, crafting, trades, mail (so also
+#                     the auction house) and the guild bank.
+#        Default:     1
+#
+
+TransmogCollect.OnPickup = 1
+
+#
+#    TransmogCollect.OnDisenchant
+#        Description: Unlock the appearance of an item when you disenchant it. With OnPickup on,
+#                     this only matters for items you had before the module was installed.
+#        Default:     1
+#
+
+TransmogCollect.OnDisenchant = 1
+
+#
+#    TransmogCollect.ScanOnLogin
+#        Description: On every login, unlock the appearances of everything in your bags and bank,
+#                     and tell you how many were new in one chat line.
+#        Default:     1
+#
+
+TransmogCollect.ScanOnLogin = 1
+
+#
+#    TransmogCollect.AltBots
+#        Description: Playerbots only. Let your own characters played as bots collect for your
+#                     account while you're grouped with them. Random bots never collect, so their
+#                     accounts don't fill the collection table.
+#        Default:     1
+#
+
+TransmogCollect.AltBots = 1
+
+#
+#    TransmogCollect.Announce
+#        Description: Say "[Item] has been added to your appearance collection." in chat for each
+#                     new appearance. Like mod-transmog's own messages, they're skipped for
+#                     players who switched transmog off (.transmog off).
+#        Default:     1
+#
+
+TransmogCollect.Announce = 1
