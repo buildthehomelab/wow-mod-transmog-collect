@@ -1,5 +1,7 @@
 # Transmog Collect
 
+> **Archived.** Superseded by [wow-mod-transmog-plus](https://github.com/buildthehomelab/wow-mod-transmog-plus), which replaces mod-transmog and collects appearances on pickup, disenchant and login itself.
+
 An [AzerothCore](https://www.azerothcore.org/) (WotLK 3.3.5a) add-on for
 [mod-transmog](https://github.com/azerothcore/mod-transmog). With mod-transmog's collection system,
 an appearance unlocks when you equip the item, loot a soulbound one, or finish a quest that
